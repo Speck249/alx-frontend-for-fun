@@ -154,7 +154,7 @@
                 <div class="form-group col-1-2">
 		  <label For="your-first-name">First Name</label>
 		  <div class="form-field">
-	            <span class="form-field-container"><input type="text" name="your-first-name" id="your-first-name" placeholder="e.g. Mike" pattern="[A-Za-zÀ-ž\s]{3,}" maxlength="35" accesskey="f" autocomplete required></span>
+		    <span class="form-field-container"><input type="text" name="your-first-name" id="your-first-name" placeholder="e.g. Mike" pattern="[A-Za-zÀ-ž\s]{3,}" maxlength="35" accesskey="f" autocomplete required></span>
 		  </div>
 		</div>
 		<div class="form-group col-1-2">
@@ -162,6 +162,8 @@
 		  <div class="form-field">
 		    <span class="form-field-container"><input type="text" name="your-last-name" id="your-last-name" placeholder="e.g. Smith" pattern="[A-Za-zÀ-ž\s]{3,}" maxlength="40" accesskey="l" autocomplete required></span>
 		  </div>
+		</div>
+		<div class="form-group col-1-2">
 		</div>
 		<div class="form-group col-2-3">
 		  <label For="your-email">Email</label>
@@ -177,16 +179,16 @@
 		   <div class="form-field">
 		     <span class="form-field-container"><input type="text" name="your-title" id="your-title" placeholder="e.g. I loved that article" pattern="[A-Za-zÀ-ž\s]{4,}" maxlength="75" accesskey="t" autocomplete required></span>
 		   </div>
-		</div>
-                <div class="form-group col-2-3">
-		  <label For="your-comment">Comment</label>
-		  <div class="form-field">
-		    <span class="form-field-container"><textarea name="your-comment" id="your-comment" placeholder="Write your comment here" maxlength="10" accesskey="c" required cols="30" rows="6"></span>
-		  </div>
-		</div>
-                <div class="form-group">
-		  <button class="button button-primary">Post my comment</button>
-		</div>
+		 </div>
+                 <div class="form-group col-2-3">
+		   <label For="your-comment">Comment</label>
+		   <div class="form-field">
+		      <span class="form-field-container"><textarea name="your-comment" id="your-comment" placeholder="Write your comment here" minlength="10" cols="30" rows="6" accesskey="c" required></span>
+		   </div>
+		 </div>
+                 <div class="form-group">
+		   <button class="button button-primary">Post my comment</button>
+		 </div>
 	      </fieldset>
 	    </form>
          </section>
