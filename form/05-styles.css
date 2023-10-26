@@ -713,7 +713,6 @@ textarea:focus {
 
 /* Form group
 ============================= */
-
 .form-group {
   padding: 1rem;
   margin: 0;
@@ -727,7 +726,6 @@ textarea:focus {
 
 /* Form field
 ============================= */
-
 .form-field-container {
   position: relative;
 }
@@ -738,7 +736,6 @@ textarea:focus {
 
 /* Form help
 ============================= */
-
 .form-group .form-help {
   margin: 0;
   line-height: 1.3;
