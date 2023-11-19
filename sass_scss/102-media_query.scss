@@ -1,0 +1,23 @@
+/* Media Query */
+
+$h1-font-sizes: (
+  960px: 18px,
+  640px: 16px,
+  320px: 14px
+);
+
+h1 {
+  font-size: 20px;
+
+  @each $breakpoint, $font-size in $h1-font-sizes {
+    @media screen and (max-width: $breakpoint) {
+      font-size: $font-size;
+    }
+  }
+
+  &.small {
+    @media screen and (max-width: 320px) {
+      color: #1D1D1D;
+    }
+  }
+}
