@@ -7,8 +7,8 @@
 
 body {
   @include margins(10px, 10px);
+}
 
-  div {
-    @include margins(15px, 15px);
-  }
+div {
+  @include margins(15px, 15px);
 }
