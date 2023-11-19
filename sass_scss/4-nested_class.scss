@@ -1,0 +1,9 @@
+/* Nested declarations for text color assignment */
+
+body {
+  color: #3D3D3D;
+
+  .red {
+    color: #FF0000;
+  }
+}
