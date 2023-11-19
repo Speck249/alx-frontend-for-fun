@@ -1,0 +1,9 @@
+/* Sort a file and prints list in debug output */
+
+$list-to-sort: (5, 3, 1, 4, 2);
+
+@debug "Unsorted list: #{$list-to-sort}";
+
+$list-to-sort: sort($list-to-sort);
+
+@debug "Sorted list: #{$list-to-sort}";
